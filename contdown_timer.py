@@ -18,7 +18,7 @@ class UI(QMainWindow):
         self.startButton = self.findChild(QPushButton,'pushButton_start')
         self.stopButton = self.findChild(QPushButton,'pushButton_stop')
         self.clearButton = self.findChild(QPushButton,'pushButton_clear')
-
+        # تغییراتی بایداعمال شود
 
         # connect button
         self.startButton.clicked.connect(self.start_timer)
