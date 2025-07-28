@@ -26,7 +26,7 @@ class UI(QMainWindow):
         self.clearButton.clicked.connect(self.clear_timer)
         self.show()
 
-
+        # change from pyscharm
         # Creat Timer
         self.timer = QTimer()
         self.timer.timeout.connect(self.count_timer)
