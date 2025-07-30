@@ -18,7 +18,6 @@ class UI(QMainWindow):
         self.startButton = self.findChild(QPushButton,'pushButton_start')
         self.stopButton = self.findChild(QPushButton,'pushButton_stop')
         self.clearButton = self.findChild(QPushButton,'pushButton_clear')
-        # تغییراتی بایداعمال شود
 
         # connect button
         self.startButton.clicked.connect(self.start_timer)
@@ -26,7 +25,6 @@ class UI(QMainWindow):
         self.clearButton.clicked.connect(self.clear_timer)
         self.show()
 
-        # change from pyscharm
         # Creat Timer
         self.timer = QTimer()
         self.timer.timeout.connect(self.count_timer)
