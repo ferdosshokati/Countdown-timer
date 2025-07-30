@@ -17,8 +17,8 @@ This app allows you to set a timer in hours and minutes, then displays the count
 ## 📸 Screenshot
 
 > *(You can see the main idea:)*  
-> ![Main Window](assets\main-window.PNG)
-> ![Count Down Timer](assets\countdown.PNG)
+> ![Main Window](assets/main-window.PNG)
+> ![Count Down Timer](assets/countdown.PNG)
 
 
 ### ✅ Requirements
